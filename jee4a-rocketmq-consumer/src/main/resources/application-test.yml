@@ -1,8 +1,0 @@
-rocketmq:
-  consumer:
-    namesrvAddr: localhost:9876
-    groupName: demoConsumerGroup
-    topic: sms
-    tag: login || register || forgetpwd || pay
-    consumeThreadMin: 20
-    consumeThreadMax: 64
