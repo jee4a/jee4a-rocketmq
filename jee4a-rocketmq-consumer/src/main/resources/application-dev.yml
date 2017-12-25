@@ -1,0 +1,8 @@
+rocketmq:
+  consumer:
+    namesrvAddr: 172.20.8.215:9876
+    groupName: demoConsumerGroup
+    topic: sms
+    tag: login || register || forgetpwd || pay
+    consumeThreadMin: 20
+    consumeThreadMax: 64
