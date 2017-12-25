@@ -1,0 +1,14 @@
+rocketmq:
+  producer:
+    groupName: demoProducerGroup
+    namesrvAddr: 172.20.8.215:9876
+    instanceName: demoProducer
+    topic: 
+      sms : sms       
+    tag: 
+      login : login  
+      register : register
+      forgetpwd : forgetpwd
+      pay : pay
+    maxMessageSize: 131072
+    sendMsgTimeout: 10000
